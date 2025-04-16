@@ -1,0 +1,7 @@
+# .vercelignore
+node_modules
+*.log
+*.tsbuildinfo
+.git
+coverage
+dist
