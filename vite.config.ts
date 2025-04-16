@@ -8,4 +8,9 @@ export default defineConfig({
   build: {
     cssMinify: true,
     ssr: false,
-}});
+  },
+  //localhost cloudflare 프로그램 사용할 때 필요
+  server: {
+    allowedHosts: true,
+  },
+});
